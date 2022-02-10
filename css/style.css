@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	text-align: left;
+    background-color: #eeeeee;
+}
+
+.list-group label{
+    margin-bottom: 10px;
+}
+
+header{
+    background-color: #009900;
+    margin: 0;
+    /*padding: 1rem;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 100%;
+}
+
+header .cerrar-sesion{
+    text-align: center;
+    background: white;
+    color: #0eb100;
+    width: 100px;
+    height: auto;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+header span{
+    color: white;
+    margin: 1rem;
+}
+header a img{
+    height: 55px;
+}
+header a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: white;
+}
+section{
+    padding: 0px;
+}
+
+section article h2{
+    border-bottom: 1px solid #dee2e6;
+}
+section h1{
+    text-align: left;
+}
+
+#map{
+       height: 300px;
+    margin-top: 1rem;
+}
+
+.mapa{
+    margin-top: 7px;
+}
+
+.table-responsive{
+    display: block;
+    width; 100%;
+    overflow-x: auto;
+    margin-top: 1rem;
+}
+section div table{
+    border-collapse:collapse;
+}
+.table {
+	width: 100%;
+	margin-bottom: 1rem;
+	color: #212529;
+}
+section div h2{
+    border-bottom: 1px solid #dee2e6;
+}
+@media(max-width:600px){
+    body{
+        font-size: .75rem;
+    }
+}
